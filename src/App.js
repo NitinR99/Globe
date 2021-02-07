@@ -10,7 +10,7 @@ function App() {
 
         <Switch>
           {/* route allows you to render by url path */}
-          <Route exact path="/" component={Main} />
+          <Route exact path="/globe" component={Main} />
           <Route exact path="/documentation" component={Documentation}/>
         </Switch>
 
